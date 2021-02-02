@@ -1,0 +1,15 @@
+Fitur:
+    ☐ Login
+    ☐ Registrasi
+    ☐ Logout
+    ☐ Email Verification
+    ☐ Email Reset Password
+    ☐ Reset Password on system
+    ☐ Role
+    ☐ Permission
+
+Plugins: 
+    ☐ Laravel Passport - Oauth2 Authentication
+    ☐ Telescope - Debugger for browser
+
+    

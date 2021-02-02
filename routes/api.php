@@ -14,6 +14,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::namespace('Api')->group(function(){
+    // authentikasi
+    Route::namespace('Auth')->group(function() {
+        Route::post('login', 'LoginController');
+        Route::post('register', 'RegisterController');
+    });
+});
+
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
